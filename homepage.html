@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sponsorship Website</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color:#eae0d5;
+      color: #faf0ca;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1, h2, h3 {
+      color: #eae0d5;
+    }
+
+    p {
+      
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #293241;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header styles */
+    .header {
+      background-color: #22333b;
+      color: #ffe5d9;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    /* Main content styles */
+    .main-content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .main-content h2 {
+      color: #5e503f;
+    }
+
+    .main-content p {
+      line-height: 1.6;
+      color: #22333b ;
+    }
+
+    /* Feature section styles */
+    .features {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 60px;
+    }
+
+    .feature {
+      width: 30%;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .feature h3 {
+      color: #5e503f;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      color: #333;
+    }
+
+    /* Testimonials section styles */
+    .testimonials {
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    .testimonial {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .testimonial p {
+      color: #333;
+    }
+
+    .testimonial-author {
+      font-style: italic;
+      color: #666;
+    }
+
+    /* Gallery section styles */
+    .gallery {
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .events {
+      margin-top: 60px;
+    }
+
+    .event {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .event h3 {
+      color: #5e503f;
+      margin-bottom: 10px;
+    }
+
+    .event p {
+      color: #333;
+    }
+
+    .subscribe {
+      margin-top: 60px;
+      text-align: center;
+      color: #5e503f;
+    }
+
+    .subscribe form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .subscribe input[type="email"] {
+      width: 300px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .subscribe button {
+      padding: 12px 24px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      margin-left: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .subscribe button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Footer styles (converted to navbar) */
+    .navbar {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      z-index: 999;
+    }
+
+    .navbar a {
+      margin: 0 10px;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <div class="header">
+      <h1>Welcome to ZESTY- The Sponsorship Website</h1>
+      <p>Connecting sponsors with opportunities</p>
+    </div>
+
+    <div class="main-content">
+      
+      <h1 style="color: #5e503f;"><u>Find Sponsorship Opportunities</u></h1>
+      <p>Discover and connect with a wide range of sponsorship opportunities for your events.</p>
+      <!-- Add search or listing functionality here -->
+      <form action="#" method="GET" class="search-form">
+        <label for="search">Search:</label>
+        <input type="text" id="search" name="search" placeholder="Enter keywords">
+        <button type="submit">Search</button>
+      </form>
+    
+      <!-- List of sponsorship opportunities -->
+      <div class="sponsorship-list">
+        <h3 style="color:#5e503f ;">Featured Opportunities</h3>
+        <ul>
+          <li>
+            <h4>Cultural Fest</h4>
+            <p>Description: None</p>
+            <p>Contact: ABC</p>
+          </li>
+          <li>
+            <h4>Literature Fest</h4>
+            <p>Description: None</p>
+            <p>Contact: XYZ</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <h1 style="color:#5e503f"><u>Advertise Your Event</u></h1>
+      <p>Showcase your event to potential sponsors and maximize its exposure.</p>
+      <!-- Add event submission form or details here -->
+      <!-- Submission Forms Section -->
+<div class="submission-forms">
+  <!-- Event Submission Form -->
+  <div class="event-submission">
+    <h2>Submit Your Event</h2>
+    <p>Are you organizing an event and seeking sponsorship? Fill out the form below to submit your event details for consideration.</p>
+    <form action="#" method="POST">
+      <label for="eventName">Event Name:</label>
+      <input type="text" id="eventName" name="eventName" required>
+      
+      <label for="eventDescription">Event Description:</label>
+      <textarea id="eventDescription" name="eventDescription" rows="4" required></textarea>
+      
+      <label for="eventContactName">Contact Name:</label>
+      <input type="text" id="eventContactName" name="eventContactName" required>
+      
+      <label for="eventContactEmail">Contact Email:</label>
+      <input type="email" id="eventContactEmail" name="eventContactEmail" required>
+      
+      <button type="submit">Submit Event</button>
+    </form>
+  </div>
+  
+  <!-- Sponsorship Submission Form -->
+  <div class="sponsorship-submission">
+    <h2>Offer Sponsorship</h2>
+    <p>Are you interested in sponsoring an event? Fill out the form below to submit your sponsorship details.</p>
+    <form action="#" method="POST">
+      <label for="sponsorName">Sponsor Name:</label>
+      <input type="text" id="sponsorName" name="sponsorName" required>
+      
+      <label for="sponsorDescription">Sponsorship Description:</label>
+      <textarea id="sponsorDescription" name="sponsorDescription" rows="4" required></textarea>
+      
+      <label for="sponsorContactName">Contact Name:</label>
+      <input type="text" id="sponsorContactName" name="sponsorContactName" required>
+      
+      <label for="sponsorContactEmail">Contact Email:</label>
+      <input type="email" id="sponsorContactEmail" name="sponsorContactEmail" required>
+      
+      <button type="submit">Submit Sponsorship</button>
+    </form>
+  </div>
+</div>
+
+    </div>
+
+    <div class="main-content">
+      <h1 style="color: #5e503f"><u>Why Choose Us?</u></h1>
+      <p>Explore the benefits of using our platform for sponsorship opportunities.</p>
+      <!-- Add benefits or features list here -->
+      <!-- Benefits or Features Section -->
+<section class="benefits">
+  <div class="container">
+    <div class="benefits-list">
+      <div class="benefit">
+        <h3 style="color: #5e503f;">Wide Reach</h3>
+        <p>Connect with a large audience through our extensive network of events and platforms.</p>
+      </div>
+      <div class="benefit">
+        <h3 style="color: #5e503f">Customized Packages</h3>
+        <p>Design sponsorship packages tailored to your specific goals and budget.</p>
+      </div>
+      <div class="benefit">
+        <h3 style="color: #5e503f">Easy Management</h3>
+        <p>Streamline your sponsorship process with our intuitive management tools.</p>
+      </div>
+      <div class="benefit">
+        <h3 style="color: #5e503f">Targeted Audience</h3>
+        <p>Reach your desired demographic with our targeted event and sponsorship opportunities.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </div>
+
+    <div class="features">
+      <div class="feature">
+        <h3>Wide Reach</h3>
+        <p>Gain exposure to a large audience through our network of events and platforms.</p>
+      </div>
+      <div class="feature">
+        <h3>Customized Packages</h3>
+        <p>Design sponsorship packages tailored to your specific goals and budget.</p>
+      </div>
+      <div class="feature">
+        <h3>Easy Management</h3>
+        <p>Streamline your sponsorship process with our intuitive management tools.</p>
+      </div>
+    </div>
+
+  
+
+    <div class="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-images">
+        <img src="https://sponsormyevent.com/img/types/concert.jpg" alt="Image 1">
+        <img src="https://sponsormyevent.com/img/types/exhibition.jpg" alt="Image 2">
+        <img src="https://sponsormyevent.com/img/types/seminar-or-talk.jpg" alt="Image 3">
+      </div>
+    </div>
+
+    <div class="events">
+      <h2>Upcoming Events</h2>
+      <div class="event">
+        <h3>Event Title 1</h3>
+        <p>Date: April 1, 2024</p>
+        <p>Location: Dehradun, India</p>
+        <p>Description: Literature Fest</p>
+      </div>
+      <div class="event">
+        <h3>Event Title 2</h3>
+        <p>Date: May 15, 2024</p>
+        <p>Location: Dehradun, India</p>
+        <p>Description: Cultural Fest</p>
+      </div>
+    </div>
+
+    <div class="subscribe">
+      <h2 style="color: #5e503f;">Subscribe to Our Newsletter</h2>
+      <p>Stay updated with the latest sponsorship opportunities and events.</p>
+      <form action="#" method="post">
+        <input type="email" name="email" placeholder="Enter your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <div class="navbar">
+    <a href="homepage.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="signup.html">Get Started</a>
+    <a href="contact.html">Contact Us</a>
+  </div>
+</body>
+</html>
